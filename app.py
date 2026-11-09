@@ -61,7 +61,7 @@ for col, dtype in training_columns_and_dtypes.items():
         final_input_df.loc[0, col] = False
 
 # Populate numerical features
-inal_input_df.loc[0, 'kwh'] = df_input['kwh'][0]
+final_input_df.loc[0, 'kwh'] = df_input['kwh'][0]
 final_input_df.loc[0, 'ac_units'] = df_input['ac_units'][0]
 final_input_df.loc[0, 'ac_hours_per_day'] = df_input['ac_hours_per_day'][0]
 final_input_df.loc[0, 'family_size'] = df_input['family_size'][0]
